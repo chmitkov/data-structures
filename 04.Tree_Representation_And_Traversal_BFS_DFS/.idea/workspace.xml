@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c69f594-5a52-41cb-a6fb-7c75c7810fc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Builders how it works/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Builders how it works/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Builders how it works/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Builders how it works/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Builders how it works/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Builders implementation/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Builders implementation/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Builders implementation/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Builders implementation/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Builders implementation/test/Tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Function literals with receiver/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Function literals with receiver/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Function literals with receiver/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Function literals with receiver/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Function literals with receiver/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Html builders/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Html builders/src/data.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Html builders/src/demo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Html builders/src/demo.kt.wb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Html builders/src/html.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Html builders/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Html builders/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Html builders/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Html builders/task.md.wb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/Html builders/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/String and map builders/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/String and map builders/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/String and map builders/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/String and map builders/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/String and map builders/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/The function apply/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/The function apply/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/The function apply/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/The function apply/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/The function apply/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Builders/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/Data classes/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/Data classes/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/Extension functions/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/Extension functions/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/Rename on import/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/Rename on import/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/Sealed classes/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/Sealed classes/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/Smart casts/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/Smart casts/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Classes/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/All Any and other predicates/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/All Any and other predicates/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/All Any and other predicates/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/All Any and other predicates/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/All Any and other predicates/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/All Any and other predicates/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/All Any and other predicates/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Associate/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Associate/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Associate/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Associate/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Associate/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Associate/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Associate/test/Tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Compound tasks/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Compound tasks/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Compound tasks/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Compound tasks/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Compound tasks/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Compound tasks/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Compound tasks/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Filter map/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Filter map/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Filter map/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Filter map/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Filter map/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Filter map/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Filter map/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/FlatMap/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/FlatMap/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/FlatMap/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/FlatMap/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/FlatMap/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/FlatMap/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/FlatMap/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Fold/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Fold/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Fold/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Fold/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Fold/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Fold/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Fold/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Getting used to new style/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Getting used to new style/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Getting used to new style/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Getting used to new style/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Getting used to new style/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/GroupBy/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/GroupBy/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/GroupBy/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/GroupBy/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/GroupBy/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/GroupBy/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/GroupBy/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Introduction/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Introduction/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Introduction/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Introduction/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Introduction/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Introduction/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Introduction/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Max min/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Max min/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Max min/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Max min/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Max min/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Max min/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Max min/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Partition/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Partition/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Partition/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Partition/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Partition/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Partition/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Partition/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sequences/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sequences/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sequences/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sequences/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sequences/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sequences/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sequences/test/Tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sort/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sort/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sort/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sort/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sort/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sort/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sort/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sum/src/Shop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sum/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sum/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sum/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sum/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sum/test/TestShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/Sum/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Collections/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Comparison/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Comparison/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Comparison/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Comparison/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Comparison/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/For loop/src/DateUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/For loop/src/MyDate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/For loop/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/For loop/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/For loop/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/For loop/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/For loop/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Invoke/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Invoke/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Invoke/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Invoke/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Invoke/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Operators overloading/src/DateUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Operators overloading/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Operators overloading/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Operators overloading/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Operators overloading/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Operators overloading/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Ranges/src/MyDate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Ranges/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Ranges/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Ranges/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Ranges/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/Ranges/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Conventions/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Generics/Generic functions/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Generics/Generic functions/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Generics/Generic functions/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Generics/Generic functions/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Generics/Generic functions/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Generics/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Generics/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Default arguments/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Default arguments/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Hello, world_/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Hello, world_/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Lambdas/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Lambdas/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Named arguments/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Named arguments/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Nothing type/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Nothing type/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Nullable types/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Nullable types/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/String templates/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/String templates/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Triple-quoted strings/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/Triple-quoted strings/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Introduction/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Delegates examples/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Delegates examples/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Delegates examples/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Delegates examples/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Delegates examples/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Delegates how it works/src/MyDate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Delegates how it works/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Delegates how it works/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Delegates how it works/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Delegates how it works/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Delegates how it works/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Lazy property/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Lazy property/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Lazy property/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Lazy property/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Lazy property/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Properties/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Properties/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Properties/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Properties/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/Properties/test/tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/Properties/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/course-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/course-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin Koans/util/src/koansTestUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_ethz_ganymed_ganymed_ssh2_build210.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_goldmansachs_gs_collections_6_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_goldmansachs_gs_collections_api_6_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_goldmansachs_gs_collections_forkjoin_6_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_goldmansachs_gs_collections_testutils_6_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mks_api_mksapi_jar_4_10_9049.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_beta_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jdom_jdom_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_core_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_decoration_model_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_integration_tools_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_logging_api_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_apt_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_fml_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_markdown_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_xdoc_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_xhtml_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_sink_api_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_site_renderer_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_archiver_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_core_2_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_error_diagnostics_2_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_monitor_2_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_descriptor_2_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_parameter_documenter_2_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_toolchain_2_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugin_tools_maven_plugin_annotations_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_antrun_plugin_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_assembly_plugin_2_2_beta_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_release_plugin_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_resources_plugin_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_site_plugin_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_surefire_plugin_2_12_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_release_maven_release_manager_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_api_2_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_exec_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_api_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_manager_plexus_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_accurev_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_bazaar_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_clearcase_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_cvs_commons_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_cvsexe_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_cvsjava_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_git_commons_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_gitexe_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_hg_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_integrity_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_jazz_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_perforce_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_starteam_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_svn_commons_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_svnexe_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_synergy_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_tfs_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_vss_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_file_management_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_common_artifact_filters_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_filtering_1_0_beta_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_invoker_2_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_plugin_testing_harness_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_repository_builder_1_0_alpha_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_io_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_maven_surefire_common_2_12_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_2_12_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_booter_2_12_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_core_1_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_taglib_1_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_tiles_1_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_tools_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_1_7_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_active_collections_1_0_beta_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_archiver_1_0_alpha_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_i18n_1_0_beta_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interactivity_api_1_0_alpha_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_io_1_0_alpha_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_velocity_1_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_util_0_9_0_M2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_netbeans_lib_cvsclient_20060125.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jol_jol_core_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_util_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_parboiled_parboiled_core_1_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_parboiled_parboiled_java_1_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_pegdown_pegdown_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_util_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__regexp_regexp_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__sslext_sslext_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Tree_Representation_And_Traversal_BFS_DFS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees-Representation-and-Traversal-(BFS-DFS)-Lecture.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/implementations/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/AbstractTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/implementations/TreeTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1pbrwX3rg2ppVqGLVG0WRviwC9h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="JUnit.TreeTest">
+    <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04.Tree_Representation_And_Traversal_BFS_DFS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementations" />
+      <option name="MAIN_CLASS_NAME" value="implementations.TreeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTest.testAddTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04.Tree_Representation_And_Traversal_BFS_DFS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementations" />
+      <option name="MAIN_CLASS_NAME" value="implementations.TreeTest" />
+      <option name="METHOD_NAME" value="testAddTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTest.testRemoveNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04.Tree_Representation_And_Traversal_BFS_DFS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementations" />
+      <option name="MAIN_CLASS_NAME" value="implementations.TreeTest" />
+      <option name="METHOD_NAME" value="testRemoveNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTest.testSwap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04.Tree_Representation_And_Traversal_BFS_DFS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementations" />
+      <option name="MAIN_CLASS_NAME" value="implementations.TreeTest" />
+      <option name="METHOD_NAME" value="testSwap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTest.testTreeDfs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04.Tree_Representation_And_Traversal_BFS_DFS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementations" />
+      <option name="MAIN_CLASS_NAME" value="implementations.TreeTest" />
+      <option name="METHOD_NAME" value="testTreeDfs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TreeTest" />
+        <item itemvalue="JUnit.TreeTest.testSwap" />
+        <item itemvalue="JUnit.TreeTest.testRemoveNode" />
+        <item itemvalue="JUnit.TreeTest.testAddTree" />
+        <item itemvalue="JUnit.TreeTest.testTreeDfs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c69f594-5a52-41cb-a6fb-7c75c7810fc9" name="Default Changelist" comment="" />
+      <created>1615462871014</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615462871014</updated>
+      <workItem from="1615462872188" duration="6990000" />
+      <workItem from="1615470089503" duration="1315000" />
+      <workItem from="1615532128889" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
