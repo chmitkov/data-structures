@@ -3,6 +3,7 @@ package implementations;
 import interfaces.AbstractTree;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Tree<E> implements AbstractTree<E> {
 
@@ -41,19 +42,34 @@ public class Tree<E> implements AbstractTree<E> {
     @Override
     public String getAsString() {
         StringBuilder sb = new StringBuilder();
-        Deque<Tree<E>> stack = new ArrayDeque<>();
-        stack.push(this);
 
-        while (!stack.isEmpty()) {
-            Tree<E> current = stack.pop();
-            sb.append(current.key);
-            sb.append(System.lineSeparator());
-            for (Tree<E> child : current.children) {
-                stack.push(child);
-            }
+        traverseTreeWithRecurrence(sb, 0, this);
+
+        return sb.toString().trim();
+    }
+
+    private String getPadding(int size) {
+        //Doesn't work in Judge :)
+        //return " ".repeat(Math.max(0, size));
+
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < size; i++) {
+            sb.append(" ");
         }
 
         return sb.toString();
+    }
+
+    private void traverseTreeWithRecurrence(StringBuilder sb, int indent, Tree<E> tree) {
+
+        sb.append(getPadding(indent))
+                .append(tree.getKey())
+                .append(System.lineSeparator());
+
+        for (Tree<E> child : tree.children) {
+            traverseTreeWithRecurrence(sb, indent + 2, child);
+        }
+
     }
 
     @Override
@@ -64,11 +80,12 @@ public class Tree<E> implements AbstractTree<E> {
 
         while (!queue.isEmpty()) {
             Tree<E> current = queue.poll();
+            current
+                    .children
+                    .forEach(queue::offer);
+
             if (current.children.isEmpty()) {
-                result.add(current.key);
-            }
-            for (Tree<E> child : current.children) {
-                queue.offer(child);
+                result.add(current.getKey());
             }
         }
 
@@ -98,21 +115,30 @@ public class Tree<E> implements AbstractTree<E> {
     public Tree<E> getDeepestLeftmostNode() {
         List<Tree<E>> leaves = getLeaves();
         int best = 0;
-        Tree<E> bestLeaf = null;
+        Tree<E> deepestLeaf = this;
+
         for (Tree<E> leaf : leaves) {
-            int currentScore = 0;
-            Tree<E> currentLeaf = leaf;
-            while (currentLeaf.parent != null) {
-                ++currentScore;
-                currentLeaf = currentLeaf.parent;
-            }
-            if (currentScore > best) {
-                best = currentScore;
-                bestLeaf = currentLeaf;
+            if (leaf.parent != null && leaf.children.isEmpty()) {
+                int path = getMaxPathCount(leaf);
+
+                if (path > best) {
+                    best = path;
+                    deepestLeaf = leaf;
+                }
             }
         }
 
-        return bestLeaf;
+        return deepestLeaf;
+    }
+
+    private int getMaxPathCount(Tree<E> tree) {
+        int result = 0;
+        Tree<E> current = tree;
+        while (current.parent != null) {
+            ++result;
+            current = current.parent;
+        }
+        return result;
     }
 
     private List<Tree<E>> getLeaves() {
@@ -135,34 +161,107 @@ public class Tree<E> implements AbstractTree<E> {
 
     @Override
     public List<E> getLongestPath() {
-        List<E> longestPath = new ArrayList<>();
+        List<Tree<E>> leaves = getLeaves();
         int best = 0;
+        List<E> pathIndexes = new ArrayList<>();
 
-        for (Tree<E> child : this.children) {
-            int currentBest = 0;
-            List<E> currentRouth = new ArrayList<>();
-            while (child.parent != null) {
-                ++best;
-                currentRouth.add(child.key);
-                child = child.parent;
-                if (currentBest > best) {
-                    best = currentBest;
-                    longestPath.addAll(currentRouth);
+        for (Tree<E> leaf : leaves) {
+            if (leaf.parent != null && leaf.children.isEmpty()) {
+                List<E> maxPathCountAndIndexes = getMaxPathCountAndIndexes(leaf);
+
+                if (maxPathCountAndIndexes.size() > best) {
+                    best = maxPathCountAndIndexes.size();
+                    pathIndexes = maxPathCountAndIndexes;
                 }
             }
         }
-        longestPath.add(0, this.key);
-        return longestPath;
+
+        return pathIndexes;
+    }
+
+    private List<E> getMaxPathCountAndIndexes(Tree<E> leaf) {
+        List<E> result = new ArrayList<>();
+        int longestPath = 0;
+        int currentPath = 0;
+        List<E> pathHistory = new ArrayList<>();
+        Tree<E> current = leaf;
+        while (current.parent != null) {
+            pathHistory.add(current.key);
+            ++currentPath;
+            current = current.parent;
+            if (currentPath > longestPath) {
+                longestPath = currentPath;
+                result = pathHistory;
+            }
+        }
+        result.add(this.key);
+        Collections.reverse(result);
+        return result;
     }
 
     @Override
     public List<List<E>> pathsWithGivenSum(int sum) {
-        return null;
+        List<Tree<E>> leaves = getLeaves();
+        List<List<E>> resultPaths = new ArrayList<>();
+
+        for (Tree<E> leaf : leaves) {
+            Tree<E> currentLeaf = leaf;
+            int totalSum = (int) this.key;
+            List<E> path = new ArrayList<>();
+
+            while (currentLeaf.parent != null && totalSum <= sum) {
+                totalSum += (int) currentLeaf.key;
+                path.add(currentLeaf.key);
+
+                currentLeaf = currentLeaf.parent;
+            }
+
+            if (totalSum == sum) {
+                path.add(this.key);
+                Collections.reverse(path);
+                resultPaths.add(path);
+            }
+
+        }
+        return resultPaths;
     }
 
     @Override
     public List<Tree<E>> subTreesWithGivenSum(int sum) {
-        return null;
+
+        return getMiddleTreesWithBFS()
+                .stream().filter(x -> getSumOfTree(x) == sum)
+                .collect(Collectors.toList());
+    }
+
+    private int getSumOfTree(Tree<E> tree) {
+        int result = 0;
+        Deque<Tree<E>> queue = new ArrayDeque<>() {{
+            offer(tree);
+        }};
+
+        while (!queue.isEmpty()) {
+            Tree<E> current = queue.poll();
+            result += (int) current.getKey();
+            current.children.forEach(queue :: offer);
+        }
+        return result;
+    }
+
+    private List<Tree<E>> getMiddleTreesWithBFS() {
+        List<Tree<E>> result = new ArrayList<>();
+        Deque<Tree<E>> queue = new ArrayDeque<>();
+        queue.offer(this);
+
+        while (!queue.isEmpty()) {
+            Tree<E> current = queue.poll();
+            if (current.parent != null && !current.children.isEmpty()) {
+                result.add(current);
+            }
+            current.children.forEach(queue::offer);
+        }
+
+        return result;
     }
 }
 
